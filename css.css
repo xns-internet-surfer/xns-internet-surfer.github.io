@@ -16,7 +16,7 @@ a.linkcontainer, details.linkcontainer>summary{
     box-shadow: 0 0 25px 0 rgb(178, 162, 248) inset, 0 0 0 0 rgb(130, 118, 180);
     flex-direction: row;
     align-items: center;
-    margin-bottom: 10px;
+    margin-top: 10px;
     cursor: pointer;
 }
 details.linkcontainer{
@@ -66,9 +66,57 @@ a.linkcontainer:hover{
     border-radius: 40px;
     transform: scale(0.4,0.4);
 }
-#xworld:hover::before{
+details>summary#xworldworld:hover::before{
     background: url(img/arrow.svg)
 }
 details:open>summary#xworld::before{
+    background: url(img/arrow.svg)
+}
+
+/*X WORLD WORLD Icon*/
+
+#xworldworld::before{
+    transition: 0.2s;
+    content: ".";
+    color: transparent;
+    background: url(img/xworld-world-link-icon.svg);
+    user-select: none;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+#xworldworld.linkcontainer:hover::before{
+    box-shadow: 0 0 0 990px rgb(255, 255, 255) inset;
+    border-radius: 40px;
+    transform: scale(0.4,0.4);
+}
+details>summary#xworldworld:hover::before{
+    background: url(img/arrow.svg)
+}
+details:open>summary#xworld::before{
+    background: url(img/arrow.svg)
+}
+
+/*NONERMAN Icon*/
+
+#nonerman::before{
+    transition: 0.2s;
+    content: ".";
+    color: transparent;
+    background: url(img/nonerman-link-icon.png);
+    user-select: none;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+#nonerman.linkcontainer:hover::before{
+    box-shadow: 0 0 0 990px rgb(255, 255, 255) inset;
+    border-radius: 40px;
+    transform: scale(0.4,0.4);
+}
+details>summary#nonerman:hover::before{
+    background: url(img/arrow.svg)
+}
+details:open>summary#nonerman::before{
     background: url(img/arrow.svg)
 }
