@@ -120,3 +120,51 @@ details>summary#nonerman:hover::before{
 details:open>summary#nonerman::before{
     background: url(img/arrow.svg)
 }
+
+/*GITHUB Icon*/
+
+#github::before{
+    transition: 0.2s;
+    content: ".";
+    color: transparent;
+    background: url(img/github.svg);
+    user-select: none;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+#github.linkcontainer:hover::before{
+    box-shadow: 0 0 0 990px rgb(255, 255, 255) inset;
+    border-radius: 40px;
+    transform: scale(0.4,0.4);
+}
+details>summary#github:hover::before{
+    background: url(img/arrow.svg)
+}
+details:open>summary#github::before{
+    background: url(img/arrow.svg)
+}
+
+/*SS2 Icon*/
+
+[href="/ss2/"]::before{
+    transition: 0.2s;
+    content: ".";
+    color: transparent;
+    background: url(img/ss2-link-icon.svg);
+    user-select: none;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+[href="/ss2/"].linkcontainer:hover::before{
+    box-shadow: 0 0 0 990px rgb(255, 255, 255) inset;
+    border-radius: 40px;
+    transform: scale(0.4,0.4);
+}
+details>summary[href="/ss2/"]:hover::before{
+    background: url(img/arrow.svg)
+}
+details:open>summary[href="/ss2/"]::before{
+    background: url(img/arrow.svg)
+}
