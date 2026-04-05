@@ -33,7 +33,7 @@ details.linkcontainer:open>summary{
 }
 details.linkcontainer>summary::before{
     transition: 0.2s;
-    content: ".";
+    content: "᠎";
     color: transparent;
     background: url(img/arrow.svg);
     user-select: none;
@@ -53,7 +53,7 @@ a.linkcontainer:hover{
 
 #xworld::before{
     transition: 0.2s;
-    content: ".";
+    content: "᠎";
     color: transparent;
     background: url(img/xworld-link-icon.svg);
     user-select: none;
@@ -77,7 +77,7 @@ details:open>summary#xworld::before{
 
 #xworldworld::before{
     transition: 0.2s;
-    content: ".";
+    content: "᠎";
     color: transparent;
     background: url(img/xworld-world-link-icon.svg);
     user-select: none;
@@ -101,7 +101,7 @@ details:open>summary#xworld::before{
 
 #nonerman::before{
     transition: 0.2s;
-    content: ".";
+    content: "᠎";
     color: transparent;
     background: url(img/nonerman-link-icon.png);
     user-select: none;
@@ -125,7 +125,7 @@ details:open>summary#nonerman::before{
 
 #github::before{
     transition: 0.2s;
-    content: ".";
+    content: "᠎";
     color: transparent;
     background: url(img/github.svg);
     user-select: none;
@@ -149,7 +149,7 @@ details:open>summary#github::before{
 
 [href="/ss2/"]::before{
     transition: 0.2s;
-    content: ".";
+    content: "᠎";
     color: transparent;
     background: url(img/ss2-link-icon.svg);
     user-select: none;
