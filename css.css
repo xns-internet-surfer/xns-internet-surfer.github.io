@@ -1,170 +1,39 @@
-html{
-    background: black;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
+*{
+    font-family: 'Times New Roman', Times, serif;
 }
-a.linkcontainer, details.linkcontainer>summary{
-    transition: 0.2s;
-    overflow: clip;
-    display: flex;
-    background-color: rgb(0, 0, 0);
+body{
+    margin: auto;
+    width: 675px;
+}
+.container{
+    background-color: #f5f5f5;
     padding: 15px;
+    margin-bottom: 5px;
+}
+.container.logoplaintext{
+    padding: 5px;
+    background-color: #4A59FF;
     color: white;
-    border: rgb(178, 162, 248) 4px solid;
-    font-size: 50px;
-    text-decoration: none;
-    box-shadow: 0 0 25px 0 rgb(178, 162, 248) inset, 0 0 0 0 rgb(130, 118, 180);
-    flex-direction: row;
-    align-items: center;
-    margin-top: 10px;
-    cursor: pointer;
+    margin-bottom: 15px;
 }
-details.linkcontainer{
-    transition: 0.2s;
-    border-left: rgb(178, 162, 248) 0 solid;
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0px;
 }
-details.linkcontainer:open{
-    border-left: rgb(178, 162, 248) 10px solid;
-    padding-left: 10px;
+a:hover{
+    outline: 1px black dotted;
+    color: #EE0000;
 }
-details.linkcontainer:open>summary{
-    box-shadow: 0 0 100px 0 rgba(178, 162, 248, 0) inset;
-    border: transparent 4px solid;
+table:not(.split), table:not(.split)>tbody>tr>th{
+    border-collapse: collapse;
+    border: 2px white outset;
 }
-details.linkcontainer>summary::before{
-    transition: 0.2s;
-    content: "᠎";
-    color: transparent;
-    background: url(img/arrow.svg);
-    user-select: none;
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
+table:not(.split)>tbody>tr:first-child>th{
+    background-color: lightgray;
 }
-details.linkcontainer:open>summary::before{
-    transform: rotate(90deg);
+table.split>tbody>tr>th:first-child{
+    display: block;
 }
-a.linkcontainer:hover{
-    box-shadow: 0 0 100px 0 rgba(178, 162, 248, 0) inset, -25px 0 0 0 rgb(130, 118, 180);
-    margin-left: 25px;
-}
-
-/*X WORLD Icon*/
-
-#xworld::before{
-    transition: 0.2s;
-    content: "᠎";
-    color: transparent;
-    background: url(img/xworld-link-icon.svg);
-    user-select: none;
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
-}
-#xworld.linkcontainer:hover::before{
-    box-shadow: 0 0 0 990px rgb(255, 255, 255) inset;
-    border-radius: 40px;
-    transform: scale(0.4,0.4);
-}
-details>summary#xworldworld:hover::before{
-    background: url(img/arrow.svg)
-}
-details:open>summary#xworld::before{
-    background: url(img/arrow.svg)
-}
-
-/*X WORLD WORLD Icon*/
-
-#xworldworld::before{
-    transition: 0.2s;
-    content: "᠎";
-    color: transparent;
-    background: url(img/xworld-world-link-icon.svg);
-    user-select: none;
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
-}
-#xworldworld.linkcontainer:hover::before{
-    box-shadow: 0 0 0 990px rgb(255, 255, 255) inset;
-    border-radius: 40px;
-    transform: scale(0.4,0.4);
-}
-details>summary#xworldworld:hover::before{
-    background: url(img/arrow.svg)
-}
-details:open>summary#xworld::before{
-    background: url(img/arrow.svg)
-}
-
-/*NONERMAN Icon*/
-
-#nonerman::before{
-    transition: 0.2s;
-    content: "᠎";
-    color: transparent;
-    background: url(img/nonerman-link-icon.png);
-    user-select: none;
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
-}
-#nonerman.linkcontainer:hover::before{
-    box-shadow: 0 0 0 990px rgb(255, 255, 255) inset;
-    border-radius: 40px;
-    transform: scale(0.4,0.4);
-}
-details>summary#nonerman:hover::before{
-    background: url(img/arrow.svg)
-}
-details:open>summary#nonerman::before{
-    background: url(img/arrow.svg)
-}
-
-/*GITHUB Icon*/
-
-#github::before{
-    transition: 0.2s;
-    content: "᠎";
-    color: transparent;
-    background: url(img/github.svg);
-    user-select: none;
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
-}
-#github.linkcontainer:hover::before{
-    box-shadow: 0 0 0 990px rgb(255, 255, 255) inset;
-    border-radius: 40px;
-    transform: scale(0.4,0.4);
-}
-details>summary#github:hover::before{
-    background: url(img/arrow.svg)
-}
-details:open>summary#github::before{
-    background: url(img/arrow.svg)
-}
-
-/*SS2 Icon*/
-
-[href="/ss2/"]::before{
-    transition: 0.2s;
-    content: "᠎";
-    color: transparent;
-    background: url(img/ss2-link-icon.svg);
-    user-select: none;
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
-}
-[href="/ss2/"].linkcontainer:hover::before{
-    box-shadow: 0 0 0 990px rgb(255, 255, 255) inset;
-    border-radius: 40px;
-    transform: scale(0.4,0.4);
-}
-details>summary[href="/ss2/"]:hover::before{
-    background: url(img/arrow.svg)
-}
-details:open>summary[href="/ss2/"]::before{
-    background: url(img/arrow.svg)
+table.split>tbody>tr>th:first-child>*{
+    height: 100%;
+    width: 100px;
 }
