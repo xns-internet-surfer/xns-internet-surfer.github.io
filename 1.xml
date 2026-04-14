@@ -1,18 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="/xml.css" type="text/css"?>
 <rss version="2.0">
 <channel>
 <title>xns-internet-surfer Tru RSS</title>
 <link>https://xns-internet-surfer.github.io/</link>
 <description>deequs and maw is real but it is too expensive for what my series shows it to be</description>
 <language>en-us</language>
-<lastBuildDate>Mon, 13 Apr 2026 22:04:58 +0000</lastBuildDate>
+<lastBuildDate>Tue, 14 Apr 2026 19:47:05 +0000</lastBuildDate>
 <generator>snap.berkeley.edu</generator>
 <item>
-<category>Notice</category>
+<category data="Update">Update</category>
+<title>Stylesheeted RSS Feed!</title>
+<link>https://xns-internet-surfer.github.io/1.xml</link>
+<description>Hate having to read the bare-bones of the RSS feed? Well now you can read it in tip-top shape! This includes automatic image-getting for a luxury-style feel for such a non-luxury styled page.</description>
+<comments>Very cool!</comments>
+<published>Tue, 14 Apr 2026 19:43:11 +0000</published>
+<author>
+<name>xns</name>
+<uri>https://xns-internet-surfer.github.io/</uri>
+</author>
+</item>
+<item>
+<category data="Notice">Notice</category>
 <title>Site Redesign</title>
-<comments>this look stinks</comments>
 <description>To be loved is to be changed</description>
-<enclosure url="https://xns-internet-surfer.github.io/data/img/88853544.png" length="143550" type="image/jpeg"/>
+<comments>alright it is now redesigned as of Tuesday</comments>
+<enclosure url="https://xns-internet-surfer.github.io/data/img/88853544.png" length="143550" alt="Recycling" type="image/png"/>
 <published>Mon, 13 Apr 2026 22:04:28 +0000</published>
 <author>
 <name>xns</name>
@@ -20,11 +33,11 @@
 </author>
 </item>
 <item>
-<category>Update</category>
+<category data="Update">Update</category>
 <title>Added RSS</title>
-<comments>oh my god</comments>
 <description>This is very neat!</description>
-<enclosure url="https://xns-internet-surfer.github.io/data/img/59399138.png" length="262230" type="image/jpeg"/>
+<comments>wowwies!</comments>
+<enclosure url="https://xns-internet-surfer.github.io/data/img/59399138.png" length="262230" alt="Oh My God!!" type="image/png"/>
 <published>Mon, 13 Apr 2026 22:04:53 +0000</published>
 <author>
 <name>xns</name>
