@@ -6,8 +6,20 @@
 <link>https://xns-internet-surfer.github.io/</link>
 <description>deequs and maw is real but it is too expensive for what my series shows it to be</description>
 <language>en-us</language>
-<lastBuildDate>Tue, 14 Apr 2026 19:47:05 +0000</lastBuildDate>
+<lastBuildDate>Tue, 14 Apr 2026 4:48:17 +0000</lastBuildDate>
 <generator>snap.berkeley.edu</generator>
+<item>
+<category data="Notice">Notice</category>
+<title>How to see this site the most on old browsers no matter the protocol.</title>
+<link>https://xns-internet-surfer.nekoweb.org/</link>
+<description>The best way to do that is by going to https://xns-internet-surfer.nekoweb.org/ which has a protocol version that supports older browsers such as 9.0.1 FireFox. The only issue which is nobody's falt is that most sites on nekoweb crash and fall apart on these older browsers. So the only place I can really go to that has this backwards- compatability is my own site.</description>
+<comments>For people just like me</comments>
+<published>Tue, 14 Apr 2026 4:47:16 +0000</published>
+<author>
+<name>xns</name>
+<uri>https://xns-internet-surfer.github.io/</uri>
+</author>
+</item>
 <item>
 <category data="Update">Update</category>
 <title>Stylesheeted RSS Feed!</title>
