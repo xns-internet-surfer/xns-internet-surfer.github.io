@@ -55,6 +55,18 @@
 </item>
 <item>
 <category data="Backwards Compatible">Backwards Compatible</category>
+<title>How to get the latest version of xns-internet-surfer.</title>
+<link>https://xns-internet-surfer.github.io/</link>
+<description>Simply go to https://xns-internet-surfer.github.io/ which is directly linked with my Vstudio in order to get the latest update quickly and efficently.</description>
+<comments>Fastpass update</comments>
+<published>Wed, 15 Apr 2026 14:33:20 +0000</published>
+<author>
+<name>xns</name>
+<uri>https://xns-internet-surfer.github.io/</uri>
+</author>
+</item>
+<item>
+<category data="Backwards Compatible">Backwards Compatible</category>
 <title>How to see this site the most on old browsers no matter the protocol.</title>
 <link>https://xns-internet-surfer.nekoweb.org/</link>
 <description>The best way to do that is by going to https://xns-internet-surfer.nekoweb.org/ which has a protocol version that supports older browsers such as 9.0.1 FireFox. The only issue which is nobody's falt is that most sites on nekoweb crash and fall apart on these older browsers. So the only place I can really go to that has this backwards- compatability is my own site.</description>
