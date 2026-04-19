@@ -6,8 +6,39 @@
 <link>https://xns-internet-surfer.github.io/</link>
 <description>deequs and maw is real but it is too expensive for what my series shows it to be</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 18 Apr 2026 17:14:33 +0000</lastBuildDate>
+<lastBuildDate>Sun, 19 Apr 2026 16:13:04 +0000</lastBuildDate>
 <generator>snap.berkeley.edu</generator>
+<item>
+<category data="Update">Update</category>
+<title>Fixed RSS feed link being the older version one.</title>
+<description>Says on the tin.</description>
+<published>Sun, 19 Apr 2026 16:09:44 +0000</published>
+<author>
+<name>xns</name>
+<uri>https://xns-internet-surfer.github.io/</uri>
+</author>
+</item>
+<item>
+<category data="Notice">Notice</category>
+<title>My RSS planned to change link elements to the proper usecase.</title>
+<description>Yes this is true I am planning to use the link element as an actual link to the post in my RSS feed</description>
+<published>Sun, 19 Apr 2026 5:47:40 +0000</published>
+<author>
+<name>xns</name>
+<uri>https://xns-internet-surfer.github.io/</uri>
+</author>
+</item>
+<item>
+<category data="Backwards Compatability">Backwards Compatability</category>
+<title>Atabook's major backwards-compatability issue</title>
+<description>The funny thing is that it does not use display: flex; for flexible objects but instead for centring which can easily be fixed by a margin: auto;</description>
+<comments>boowomp</comments>
+<published>Sun, 19 Apr 2026 5:47:40 +0000</published>
+<author>
+<name>xns</name>
+<uri>https://xns-internet-surfer.github.io/</uri>
+</author>
+</item>
 <item>
 <category data="Notice">Notice</category>
 <title>My Atabook is live!</title>
