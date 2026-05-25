@@ -16,6 +16,14 @@ body{
     color: white;
     margin-bottom: 15px;
 }
+body>noscript{
+    padding: 5px;
+    background-color: #b35e5e;
+    color: white;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    display: block;
+}
 h1, h2, h3, h4, h5, h6, p{
     margin: 0px;
 }
@@ -37,8 +45,17 @@ table.split>tbody>tr>th:first-child>*{
     height: 100%;
     width: 100px;
 }
-a.rss>img{
+.rss>img{
     width: 18px;
     height: 18px;
     margin-bottom: -4px;
+}
+html:target>body>table>tbody>tr>th>.incompatible{
+    display: none;
+}
+html:target>body>.logoplaintext>a[href="#incompatible"]{
+    display: none;
+}
+html:not(:target)>body>.logoplaintext>a[href="#"]{
+    display: none;
 }
