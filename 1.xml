@@ -6,13 +6,26 @@
 <link>https://xns-internet-surfer.github.io/</link>
 <description>deequs and maw is real but it is too expensive for what my series shows it to be</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 19 Apr 2026 16:13:04 +0000</lastBuildDate>
+<lastBuildDate>Mon, 25 May 2026 19:31:03 +0000</lastBuildDate>
 <generator>snap.berkeley.edu</generator>
+<item>
+<category data="Update">Update</category>
+<title>Added Nekoweb RSS Support</title>
+<link>https://xns-internet-surfer.nekoweb.org/1.xml</link>
+<description>If you want to follow the feed then you can with the rss support! (Nekoweb only!)</description>
+<pubDate>Mon, 25 May 2026 19:24:57 +0000</pubDate>
+<guid>id-13</guid>
+<author>
+<name>xns</name>
+<uri>https://xns-internet-surfer.github.io/</uri>
+</author>
+</item>
 <item>
 <category data="Update">Update</category>
 <title>Fixed RSS feed link being the older version one.</title>
 <description>Says on the tin.</description>
-<published>Sun, 19 Apr 2026 16:09:44 +0000</published>
+<pubDate>Sun, 19 Apr 2026 16:09:44 +0000</pubDate>
+<guid>id-12</guid>
 <author>
 <name>xns</name>
 <uri>https://xns-internet-surfer.github.io/</uri>
@@ -22,7 +35,8 @@
 <category data="Notice">Notice</category>
 <title>My RSS planned to change link elements to the proper usecase.</title>
 <description>Yes this is true I am planning to use the link element as an actual link to the post in my RSS feed</description>
-<published>Sun, 19 Apr 2026 5:47:40 +0000</published>
+<pubDate>Sun, 19 Apr 2026 5:47:40 +0000</pubDate>
+<guid>id-11</guid>
 <author>
 <name>xns</name>
 <uri>https://xns-internet-surfer.github.io/</uri>
@@ -33,7 +47,8 @@
 <title>Atabook's major backwards-compatability issue</title>
 <description>The funny thing is that it does not use display: flex; for flexible objects but instead for centring which can easily be fixed by a margin: auto;</description>
 <comments>boowomp</comments>
-<published>Sun, 19 Apr 2026 5:47:40 +0000</published>
+<pubDate>Sun, 19 Apr 2026 5:47:40 +0000</pubDate>
+<guid>id-10</guid>
 <author>
 <name>xns</name>
 <uri>https://xns-internet-surfer.github.io/</uri>
@@ -45,7 +60,8 @@
 <link>https://xns-internet-surfer.atabook.org/</link>
 <description>The guestbook for my website is now set up! Simply go to https://xns-internet-surfer.atabook.org/ or click on the attached link to go there. Be warned people are a wild species.</description>
 <comments>guest the book</comments>
-<published>Sat, 18 Apr 2026 17:14:29 +0000</published>
+<pubDate>Sat, 18 Apr 2026 17:14:29 +0000</pubDate>
+<guid>id-9</guid>
 <author>
 <name>xns</name>
 <uri>https://xns-internet-surfer.github.io/</uri>
@@ -56,7 +72,8 @@
 <title>Easy update of other mirrors with Power Automate</title>
 <description>This allows for NeoCities and NekoWeb to be updated easier like Github!</description>
 <comments>hall of mirrors</comments>
-<published>Sat, 18 Apr 2026 16:05:07 +0000</published>
+<pubDate>Sat, 18 Apr 2026 16:05:07 +0000</pubDate>
+<guid>id-8</guid>
 <author>
 <name>xns</name>
 <uri>https://xns-internet-surfer.github.io/</uri>
@@ -67,7 +84,8 @@
 <title>two automation two furious</title>
 <description>This is truely a power automation of all time</description>
 <comments>the furious part is required but you can remove the fast and replace it with something else.</comments>
-<published>Sat, 18 Apr 2026 15:37:49 +0000</published>
+<pubDate>Sat, 18 Apr 2026 15:37:49 +0000</pubDate>
+<guid>id-7</guid>
 <author>
 <name>xns</name>
 <uri>https://xns-internet-surfer.github.io/</uri>
@@ -78,7 +96,8 @@
 <title>The walk to and back from my mailbox fell off bro.</title>
 <description>When I first did the trip my status is servere but the last two trips were too easy what happened to doubious trip?</description>
 <comments>two fast two furious</comments>
-<published>Wed, 15 Apr 2026 19:03:49 +0000</published>
+<pubDate>Wed, 15 Apr 2026 19:03:49 +0000</pubDate>
+<guid>id-6</guid>
 <author>
 <name>xns</name>
 <uri>https://xns-internet-surfer.github.io/</uri>
@@ -90,7 +109,8 @@
 <link>https://xns-internet-surfer.github.io/</link>
 <description>Simply go to https://xns-internet-surfer.github.io/ which is directly linked with my Vstudio in order to get the latest update quickly and efficently.</description>
 <comments>Fastpass update</comments>
-<published>Wed, 15 Apr 2026 14:33:20 +0000</published>
+<pubDate>Wed, 15 Apr 2026 14:33:20 +0000</pubDate>
+<guid>id-5</guid>
 <author>
 <name>xns</name>
 <uri>https://xns-internet-surfer.github.io/</uri>
@@ -102,7 +122,8 @@
 <link>https://xns-internet-surfer.nekoweb.org/</link>
 <description>The best way to do that is by going to https://xns-internet-surfer.nekoweb.org/ which has a protocol version that supports older browsers such as 9.0.1 FireFox. The only issue which is nobody's falt is that most sites on nekoweb crash and fall apart on these older browsers. So the only place I can really go to that has this backwards- compatability is my own site.</description>
 <comments>For people just like me</comments>
-<published>Tue, 14 Apr 2026 4:47:16 +0000</published>
+<pubDate>Tue, 14 Apr 2026 4:47:16 +0000</pubDate>
+<guid>id-4</guid>
 <author>
 <name>xns</name>
 <uri>https://xns-internet-surfer.github.io/</uri>
@@ -114,7 +135,8 @@
 <link>https://xns-internet-surfer.github.io/1.xml</link>
 <description>Hate having to read the bare-bones of the RSS feed? Well now you can read it in tip-top shape! This includes automatic image-getting for a luxury-style feel for such a non-luxury styled page.</description>
 <comments>Very cool!</comments>
-<published>Tue, 14 Apr 2026 19:43:11 +0000</published>
+<pubDate>Tue, 14 Apr 2026 19:43:11 +0000</pubDate>
+<guid>id-3</guid>
 <author>
 <name>xns</name>
 <uri>https://xns-internet-surfer.github.io/</uri>
@@ -126,7 +148,8 @@
 <description>To be loved is to be changed</description>
 <comments>alright it is now redesigned as of Tuesday</comments>
 <enclosure url="https://xns-internet-surfer.github.io/data/img/88853544.png" length="143550" alt="Recycling" type="image/png"/>
-<published>Mon, 13 Apr 2026 22:04:28 +0000</published>
+<pubDate>Mon, 13 Apr 2026 22:04:28 +0000</pubDate>
+<guid>id-2</guid>
 <author>
 <name>xns</name>
 <uri>https://xns-internet-surfer.github.io/</uri>
@@ -138,7 +161,8 @@
 <description>This is very neat!</description>
 <comments>wowwies!</comments>
 <enclosure url="https://xns-internet-surfer.github.io/data/img/59399138.png" length="262230" alt="Oh My God!!" type="image/png"/>
-<published>Mon, 13 Apr 2026 22:04:53 +0000</published>
+<pubDate>Mon, 13 Apr 2026 22:04:53 +0000</pubDate>
+<guid>id-1</guid>
 <author>
 <name>xns</name>
 <uri>https://xns-internet-surfer.github.io/</uri>

@@ -4,6 +4,7 @@
 body{
     margin: auto;
     width: 675px;
+    overflow-y: scroll;
 }
 .container{
     background-color: #f5f5f5;
